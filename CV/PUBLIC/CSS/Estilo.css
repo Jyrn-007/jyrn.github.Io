@@ -32,8 +32,8 @@ a {
 
 .header {
 
-  width: 99%;
-  height: 230PX;
+  width: auto;
+  height:auto;
   background: linear-gradient(90deg, #8099de 0%, #111627 50%);
   top: 0;
   left: 0;
@@ -75,8 +75,9 @@ a {
 
 .navL-img {
   
-  width: 70px;
-  border-radius: 100%;
+  width: 80px;
+
+  
   
 }
 
