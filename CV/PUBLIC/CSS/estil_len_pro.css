@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+
+/*base*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 3px;
+}
+
+body {
+  margin: 2PX;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  background-color: #1f243d;
+  color: #fff;
+}
+
+
+/*nav*/
+
+/*cabeza*/
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+.header {
+
+    width:100%;
+    height:100%;
+    box-shadow: 5px 5px 19px 4px rgb(252, 252, 252);
+    
+    
+  }
+  /*barra de navegacion*/
+  
+  .nav {
+   
+    height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+    text-align-last: center;
+    box-shadow: 5px 5px 19px 4px rgb(252, 252, 252);
+    
+  }
+  
+  .navL {
+  
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    font-weight: 10px;
+   
+  }
+  
+  /* lista*/
+  
+  
+  
+  .navL-img {
+    
+    width: 80px;
+  
+    cursor:default;
+    
+  }
+  
+  
+  
+  .navLink{
+   display: flexbox;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .navList {
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+    text-align-last: center;
+    flex-direction: row;
+    animation: baran 1s linear both;
+    display:flex;
+    flex-direction:row;
+    align-items: center center;
+    row-gap: 1.5rem;
+  }
+  
+  .navLink {
+    text-transform: uppercase;
+    font-weight: 900;
+  
+  }
+  
+  .navLink:hover {
+    color: #ea0404;
+  }
+  
+  
+  
+   @keyframes baran{
+    0%{transform:translateY(0) translateX(0)}
+    100%{transform:translateY(-10px) translateX(10px)}
+  }
+  
+
+/**/
+.p1{
+	color: var(--gray);
+	width: 184px;
+	margin: 0 auto;
+	margin-top: 25px;
+	font-size: 15px;
+    line-height: 14px;
+}
+
+.s-box{
+    display:flexbox;
+	width: 50%;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+#progress1 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background:red;
+    width: 10%;
+    height: 100%;
+    border-radius: 9px;
+    
+}
